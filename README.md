@@ -3,7 +3,8 @@
 This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://link-here)**
 
 ## Pre-requisites
-- This tutorial assumes you already have Keycloak installed on your Kubernetes cluster using Helm. If not, please watch **[this tutorial first](https://youtu.be/YNBCi5tKxUA)**
+
+This tutorial assumes you already have Keycloak installed on your Kubernetes cluster using Helm. If not, please watch **[this tutorial first](https://youtu.be/YNBCi5tKxUA)**
 
 ## Kubernetes Training
 
