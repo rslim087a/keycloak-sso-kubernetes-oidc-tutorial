@@ -19,7 +19,7 @@ Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog
 
 ```
 helm repo add prometheus https://prometheus-community.github.io/helm-charts/
-helm install prometheus prometheus-community/kube-prometheus-stack --version 45.7.1 --namespace monitoring --create-namespace
+helm install prometheus prometheus-community/kube-prometheus-stack --version 45.7.1 --namespace monitoring --create-namespace -f monitoring-helm/values.yaml
 ```
 
 Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog/installing-helm-on-mac-and-windows)
