@@ -18,6 +18,10 @@ helm install prometheus prometheus-community/kube-prometheus-stack --version 45.
 
 [Postman](https://www.postman.com/downloads/) is used for testing and troubleshooting
 
+## Decoding JWT Token
+
+[JWT.io](https://jwt.io/) will be used to decode JSON Web Tokens
+
 
 ## Kubernetes Training
 
