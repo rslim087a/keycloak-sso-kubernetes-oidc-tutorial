@@ -2,13 +2,22 @@
 
 This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://link-here)**
 
-## Pre-requisites
+## Command to Install Keycloak
 
-This tutorial assumes you already have Keycloak installed on your Kubernetes cluster using Helm. **If not**, please watch **[this tutorial first](https://youtu.be/YNBCi5tKxUA)**
+```
+helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f helm/values.yaml
+```
 
-## Tutorial Resources
+## Command to Install Monitoring Stack
 
-Postman Download: [Download Postman](https://www.postman.com/downloads/)
+```
+helm install prometheus prometheus-community/kube-prometheus-stack --version 45.7.1 --namespace monitoring --create-namespace
+```
+
+## Testing and Troubleshooting
+
+[Postman](https://www.postman.com/downloads/) is used for testing and troubleshooting
+
 
 ## Kubernetes Training
 
