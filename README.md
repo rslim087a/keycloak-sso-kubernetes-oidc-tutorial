@@ -5,7 +5,7 @@ This repo contains all the code needed to follow along with our **[YouTube Tutor
 ## Command to Install Keycloak
 
 ```
-helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f helm/values.yaml
+helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f keycloak-helm/values.yaml
 ```
 
 ## Command to Install Monitoring Stack
