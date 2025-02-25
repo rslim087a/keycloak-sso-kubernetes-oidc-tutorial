@@ -1,6 +1,6 @@
 # Keycloak SSO Tutorial on Kubernetes (Grafana Example)
 
-This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://link-here)**
+This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://youtu.be/hDlklgv60Lo)**
 
 ## Kubernetes Cluster with Docker Desktop
 
