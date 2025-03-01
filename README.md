@@ -4,7 +4,7 @@ This repo contains all the code needed to follow along with our **[YouTube Tutor
 
 ## Kubernetes Cluster with Docker Desktop
 
-Set Up Kubernetes Cluster with Docker Desktop: [Kubernetes Cluster Setup](https://kubernetestraining.io/blog/set-up-a-local-kubernetes-cluster-with-docker-desktop)
+Set Up Kubernetes Cluster with Docker Desktop: [Kubernetes Cluster Setup](https://youtu.be/IBkU4dghY0Y)
 
 ## Command to Install Keycloak
 
