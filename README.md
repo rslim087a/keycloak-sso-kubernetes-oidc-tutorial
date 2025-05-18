@@ -33,6 +33,6 @@ Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog
 [JWT.io](https://jwt.io/) will be used to decode JSON Web Tokens
 
 
-## Kubernetes Training
+## Become a Cloud and DevOps Engineer
 
-If you find these tutorials helpful, check out our [Kubernetes Training course](https://kubernetestraining.io/)
+Visit https://rayanslim.com
