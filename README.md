@@ -35,4 +35,4 @@ Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog
 
 ## Become a Cloud and DevOps Engineer
 
-Visit https://rayanslim.com
+Learn every tool that matters: https://rayanslim.com
