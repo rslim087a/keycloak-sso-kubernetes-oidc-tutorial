@@ -10,8 +10,9 @@ Set Up Kubernetes Cluster with Docker Desktop: [Kubernetes Cluster Setup](https:
 
 ```
 helm repo add bitnami https://charts.bitnami.com/bitnami
-helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f keycloak-helm/values.yaml
+helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f keycloak-helm/values.yaml --set image.repository=bitnamilegacy/keycloak --set postgresql.image.repository=bitnamilegacy/postgresql --set global.security.allowInsecureImages=true
 ```
+**Update**: The Keycloak installation command was recently updated to point to the Bitnami legacy repository since all images were moved there.
 
 Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog/installing-helm-on-mac-and-windows)
 
