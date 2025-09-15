@@ -14,7 +14,7 @@ helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-nam
 ```
 **Update**: The Keycloak installation command was recently updated to point to the Bitnami legacy repository since all images were moved there.
 
-Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog/installing-helm-on-mac-and-windows)
+Don't have Helm Installed? See [Install Helm](https://rayanslim.com/course/prometheus-grafana-monitoring-course/helm-installation)
 
 ## Command to Install Monitoring Stack
 
@@ -23,7 +23,7 @@ helm repo add prometheus https://prometheus-community.github.io/helm-charts/
 helm install prometheus prometheus-community/kube-prometheus-stack --version 45.7.1 --namespace monitoring --create-namespace -f monitoring-helm/values.yaml
 ```
 
-Don't have Helm Installed? See [Install Helm](https://kubernetestraining.io/blog/installing-helm-on-mac-and-windows)
+Don't have Helm Installed? See [Install Helm](https://rayanslim.com/course/prometheus-grafana-monitoring-course/helm-installation)
 
 ## Testing and Troubleshooting
 
