@@ -23,7 +23,7 @@ helm repo add prometheus https://prometheus-community.github.io/helm-charts/
 helm install prometheus prometheus/kube-prometheus-stack --version 45.7.1 --namespace monitoring --create-namespace -f monitoring-helm/values.yaml
 ```
 
-Don't have Helm Installed? See [Install Helm](https://rayanslim.com/course/prometheus-grafana-monitoring-course/helm-installation)
+Don't have Helm Installed? See [Install Helm](https://rslim087a.github.io/rayanslim/lesson.html?course=prometheus-grafana-monitoring-course&lesson=helm-installation)
 
 ## Testing and Troubleshooting
 
@@ -36,4 +36,4 @@ Don't have Helm Installed? See [Install Helm](https://rayanslim.com/course/prome
 
 ## Become a Cloud and DevOps Engineer
 
-Learn every tool that matters: https://rayanslim.com
+Learn every tool that matters: [https://rayanslim.com](https://rslim087a.github.io/rayanslim)
