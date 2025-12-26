@@ -36,4 +36,4 @@ Don't have Helm Installed? See [Install Helm](https://rslim087a.github.io/rayans
 
 ## Become a Cloud and DevOps Engineer
 
-Learn every tool that matters: [https://rayanslim.com](https://rslim087a.github.io/rayanslim)
+Learn every tool that matters: [https://rslim087a.github.io/rayanslim/](https://rslim087a.github.io/rayanslim)
